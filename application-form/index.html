@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <link href="styles.css" rel="stylesheet">
+    </head>
+    <body>
+        <div class="container">
+        <header class="header">
+            <div class="navbar">
+
+            <div class="navbar-left">
+                <div class="navbar-logo-wrapper navbar-left">
+            <img class="navbar-logo" src="https://lh3.googleusercontent.com/Sx25bbT0xDzn5P3l_8dfBNNbgADcsaYfwonsncoWUy0nS3ynyqGEZzNA7LICIPRAK5PYdC6p7xoj--VX2He8H89E66ida_18BLcaOCP5CNoTTY8D2C6CJiS1aFFlFOYCZxhrlGTjaw=w2400" 
+                alt="penguinsoft-logo"><h1 class="text-logo">Penguinsoft</h1>
+            </div>
+            </div>
+                
+                <div class="navbar-right">
+                <ul class="navbar-menu">
+                    <li>Login</li>
+                </ul>
+            </div>
+            </div>
+        </header>
+        <div class="banner"><h1 id="title" class='text-center'>Accelerate to the better world. </h1></div>
+        <div class="text-topic-wrapper">
+        <p id="description" class="text-topic">Want to join our team? </p>
+        <p>Provide your details below.</p></div>
+        <form class="application-form" id="survey-form">
+            
+
+            <div class="form-group" >
+                <div class="input-bar" >
+                <label class="label-padding">First of all, please upload your CV</label>
+                <label id="resume-label" ></label>
+                <input 
+                type="file" 
+                name="cv-file-name" 
+                id="cv-file" 
+                class="form-control-upload" 
+                required>
+            </div>
+            </div>
+            
+            <div class="form-group1" >
+                <div class="input-bar" >
+                <label id="name-label" class="label-padding">First Name *</label>
+                <input 
+                type="text" 
+                name="name" 
+                id="name" 
+                class="form-control" 
+                placeholder="Enter your first name"
+                required>
+                </div>
+
+                <div class="input-bar">
+                <label id="last-name-label" class="label-padding">Last Name *</label>
+                <input type="text"
+                name="last-name" 
+                id="last-name" 
+                class="form-control" 
+                placeholder="Enter your last name"
+                required>
+                </div>
+
+                <div class="input-bar">
+                <label id="email-label" class="label-padding">Email *</label>
+                <input type="email" 
+                name="email"
+                id="email" 
+                class="form-control" 
+                placeholder="Enter your email"
+                required>
+                </div>
+
+                <div class="input-bar">
+                    <label id="phone-number-label" class="label-padding">Phone Numer</label>
+                    <input type="text" 
+                    name="phone"
+                    id="phone" 
+                    class="form-control" 
+                    placeholder="e.g. 081-111-1111"
+                    >
+                    </div>
+
+                <!-- <label for="age" id="number-label" >Your Age:</label>
+                <input type="number" 
+                id="number" 
+                min="1"
+                max="31"
+                name="age" 
+                class="form-control" 
+                placeholder="example: 18 years old"
+                required>  -->
+
+                <div class="input-bar">
+                <label for="date-of-birth" id="number-label" class="label-padding" >Date of Birth</label>
+                <input type="date" 
+                id="birthDate" 
+                min="1"
+                max="31"
+                name="date-of-birth" 
+                class="form-control" 
+                placeholder="example: 01/01/1995"
+                required> 
+                </div>
+
+                <div class="input-bar" >
+                    <label id="name-label" class="label-padding" >Location</label>
+                    <input 
+                    type="text" 
+                    name="location" 
+                    id="location" 
+                    class="form-control" 
+                    placeholder="e.g. Bangkok, Thailand "
+                    required>
+                    </div>
+             
+
+                <!-- <div class="fallbackDatePicker">
+                    <span>
+                      <label for="day">Day:</label>
+                      <select id="day" name="day">
+                      </select>
+                    </span>
+                    <span>
+                      <label for="month">Month:</label>
+                      <select id="month" name="month">
+                        <option selected>January</option>
+                        <option>February</option>
+                        <option>March</option>
+                        <option>April</option>
+                        <option>May</option>
+                        <option>June</option>
+                        <option>July</option>
+                        <option>August</option>
+                        <option>September</option>
+                        <option>October</option>
+                        <option>November</option>
+                        <option>December</option>
+                      </select>
+                    </span>
+                    <span>
+                      <label for="year">Year:</label>
+                      <select id="year" name="year">
+                      </select>
+                    </span>
+                  </div>
+                 -->
+                </div>
+
+
+                <div class="form-group">
+                    <label for="gender" id="gender-label">What your gender?</label>
+                    <label for="male"><input type="radio" class="input-radio" value="male" name="gender" checked> Male</label>
+                    <label for="female" ><input type="radio" class="input-radio" value="female" name="gender" > Female</label>
+                    <label for="other" ><input type="radio"  class="input-radio" value="other" name="gender"> Other</label>
+                </div>
+<!-- 
+                <div class="form-group">
+                <p id="job" >Which option best describes your current role?</p>
+                <label for="cars">Choose your current role:</label>
+                <select 
+                name="current-role" 
+                id="dropdown"
+                class="form-control" 
+                required>
+                <option value="student">Student</option>
+                <option value="full-time-job">Full-time Job</option>
+                <option value="part-time-job">Part-time Job</option>
+                <option value="full-time-learner">Full-time Learner</option>
+                <option value="other">Other</option>
+                </select>
+                </div> -->
+
+
+                <div class="form-group">
+              <label for="feature-select">Which role you want to work with us?</label>
+                <select 
+                name="want-role" 
+                id="dropdown"
+                class="form-control" 
+                required>
+                <option value="">--Please choose an option--</option>
+                <option value="designer">Designer</option>
+                <option value="developer">Developer</option>
+                <option value="engineer">Engineer</option>
+                <option value="internship">Internship</option>
+                <option value="cool">I'm not sure, but I think it's gonna be cool to work here!
+                </option>
+                </select>
+                </div>
+                
+
+                <div class="form-group">
+                <p>What other or specific field you also interest?
+                    <span class="clue">(You can select more than one)</span>
+                </p>
+                <div class="checklist-wrapper">
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="front-end-field" 
+                    ><label for="front-end-field">Front-End
+                    </label>
+                    </div>
+
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="back-end-field"
+                    class="input-checkbox" 
+                    ><label for="back-end-field">Back-End
+                    </label>
+                    </div>
+
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="data-field"
+                    class="input-checkbox"  
+                    ><label for="data-field">Data Visualize
+                    </label>
+                    </div>
+                
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="art-and-design-field" 
+                    class="input-checkbox" 
+                    ><label for="art-and-design-field">Art and Design
+                    </label>
+                    </div>
+
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="creative-content-field" 
+                    class="input-checkbox" 
+                    ><label for="creative-content-field">Creative Content
+                    </label>
+                    </div>
+                
+                    <div class="checklist">
+                    <input 
+                    class="input-checkbox"
+                    name="other-interest"
+                    type="checkbox" 
+                    value="customer-service-field" 
+                    class="input-checkbox" 
+                    ><label for="customer-service-field">Customer Service
+                    </label>
+                    </div>
+                </div>
+                </div>
+
+                <div class="form-group">
+                    <p>Why do you want to work with us?</p>
+                    <textarea
+                      id="comment"
+                      class="input-textarea"
+                      name="comment"
+                      placeholder="Tell us your thought a little..."
+                    ></textarea>
+                </div>
+
+                <div class="form-group">
+                    <button type="submit" id="submit" class="submit-button" onclick="showApplicantData()">
+                      Submit
+                    </button>
+                </div>
+                
+            </form>
+    </div>
+    <footer class="footer">
+        <div class="footer-item" >
+        <small>Penguinsoft &#169 2021</small>
+    </div>
+    </footer>
+        <script src="main.js"></script> 
+        <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script> 
+        <script type="text/javascript" src="http://code.jquery.com/jquery-latest.min.js"></script>
+    </body>
+</html>
